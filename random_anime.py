@@ -1,3 +1,4 @@
+from jikanpy import Jikan
 from random import choice
 
 moods = ['sad', 'angry', 'fear', 'romance', 'calm', 'happy', 'anxious', 'cheerful', 'dissapointed', 'disgusted', 'energetic', 'bored']
@@ -8,6 +9,9 @@ animes = [['Naruto', 'happy'],
           ['Bleach', 'angry']]
 
 selection = []
+
+jikan = Jikan()
+print(jikan.anime(457))
 
 print('what mood are you in?')
 mood = input()
