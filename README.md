@@ -10,4 +10,5 @@ Utilized pymongo to use mongodb [https://pypi.org/project/pymongo/](https://pypi
 python -m pip install jikanpy-v4
 python -m pip install ratelimit
 python -m pip install pandas
+python -m pip install pymongo
 ```
