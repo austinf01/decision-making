@@ -4,6 +4,7 @@ Utilized the unofficial MyAnimeList api, JikanPy, python wrapper for Jikanv4: [h
 
 Utilized ratelimit in order to match the rate limit of API calls. [https://pypi.org/project/ratelimit/](https://pypi.org/project/ratelimit/)
 
+Utilized pymongo to use mongodb [https://pypi.org/project/pymongo/](https://pypi.org/project/pymongo/)
 
 ```
 python -m pip install jikanpy-v4
